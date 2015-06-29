@@ -4,6 +4,8 @@ A simple module to conver Arabic numerals to Myanmar numerals
 
 ## Usage
 
+`npm i myanmar-numeral --save` to install.
+
 ```JavaScript
 var mn = require('./');
 var test = require('tape');
