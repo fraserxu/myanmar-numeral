@@ -4,7 +4,8 @@
   "description": "A simple module to conver Arabic numerals to Myanmar numerals",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "ci": "node test.js"
   },
   "repository": {
     "type": "git",
