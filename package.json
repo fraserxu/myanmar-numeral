@@ -4,8 +4,8 @@
   "description": "A simple module to conver Arabic numerals to Myanmar numerals",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js",
-    "ci": "node test.js"
+    "test": "node test.js && zuul --local 9966 -- test.js",
+    "ci": "node test.js && zuul -- test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/fraserxu/myanmar-numeral",
   "devDependencies": {
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "zuul": "^3.1.0"
   }
 }
