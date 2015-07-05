@@ -1,4 +1,4 @@
-# myanmar-numeral
+# myanmar-numeral [![Build Status](https://travis-ci.org/fraserxu/myanmar-numeral.svg?branch=master)](https://travis-ci.org/fraserxu/myanmar-numeral)
 
 A simple module to conver Arabic numerals to Myanmar numerals
 
